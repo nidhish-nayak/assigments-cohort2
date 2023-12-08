@@ -19,5 +19,6 @@ function calculateTime(n) {
 	return (end - start) / 1000;
 }
 
-const result = calculateTime(1000000000);
+// anything more than this will take long time
+const result = calculateTime(10000000000);
 console.log(result);

@@ -22,5 +22,5 @@ function countVowels(str) {
 	}
 	return count;
 }
-console.log(countVowels("HelloWorld"));
+
 module.exports = countVowels;

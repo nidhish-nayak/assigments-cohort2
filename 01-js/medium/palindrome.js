@@ -4,7 +4,9 @@
 */
 
 function isPalindrome(str) {
+	// removing special chars using regex
 	const palindrome = str.replace(/[^a-zA-Z0-9]/g, "").toLowerCase();
+
 	for (let i = 0; i < palindrome.length; i++) {
 		if (palindrome[i] !== palindrome[palindrome.length - 1 - i]) {
 			if (i !== palindrome.length - 1) {
